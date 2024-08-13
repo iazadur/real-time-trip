@@ -14,8 +14,16 @@ This project is a Next.js application that displays real-time vehicle locations 
 - [Next.js](https://nextjs.org/)
 - [Socket.io](https://socket.io/)
 
-## Getting Started
+## Getting Started for (using swagger)
 
+```
+npm i
+npm start
+```
+### Swagger access url 
+```
+http://localhost:3000/api-docs/
+```
 
 
 
