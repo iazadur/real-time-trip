@@ -28,7 +28,7 @@ http://localhost:3000/api-docs/
 
 
 
-### Frist create a trip using this api 
+## Frist create a trip using this api 
 
 ```
 https://tracev2.barikoimaps.dev/realtime-trip/create
@@ -37,10 +37,10 @@ https://tracev2.barikoimaps.dev/realtime-trip/create
 ```
 
 {
-  "user_id": "65a3cba29f7b07fa470550bb",
-  "fieldforce_id": "65a3cba29f7b07fa47054fa8",
-  "address": "matikata rd basa 572/k barikoi",
-  "api_key": "MjA1NDo4MjBSTUxLTEs5"
+  "user_id": "65a3cba29f7b07fa470550bb", // Created by the user 
+  "fieldforce_id": "65a3cba29f7b07fa47054fa8", // Created for the user
+  "address": "matikata rd basa 572/k barikoi", //   Destination Address
+  "api_key": "MjA1NDo4MjBSTUxLTEs5" // Company API key 
 }
 ```
 
@@ -53,8 +53,8 @@ https://tracev2.barikoimaps.dev/realtime-trip/start
 
 ```
 {
-  "trip_id": "66bb3ef8119f4a96927a32ca",
-  "fieldforce_id": "65a3cba29f7b07fa47054fa8",
+  "trip_id": "66bb3ef8119f4a96927a32ca", 
+  "fieldforce_id": "65a3cba29f7b07fa47054fa8", // Created for the user
   "api_key": "MjA1NDo4MjBSTUxLTEs5"
 }
 ```
