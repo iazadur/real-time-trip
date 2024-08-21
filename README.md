@@ -45,10 +45,10 @@ This guide will walk you through the steps to first create a trip, then start it
    - Copy the following JSON data and paste it into the text area:
      ```json
      {
-       "user_id": "65a3cba29f7b07fa470550bb",
-       "fieldforce_id": "65a3cba29f7b07fa47054fa8",
+       "user_id": "65a3cba29f7b07fa47055bb",
+       "fieldforce_id": "65a3cba29f7b07fa4054fa8",
        "address": "matikata rd basa 572/k barikoi",
-       "api_key": "MjA1NDo4MjBSTUxLTEs5"
+       "api_key": "api_key"
      }
      ```
    - Here's what each part of this data means:
@@ -96,9 +96,9 @@ This guide will walk you through the steps to first create a trip, then start it
    - Copy the following JSON data and paste it into the text area:
      ```json
      {
-       "trip_id": "66bb3ef8119f4a96927a32ca",
-       "fieldforce_id": "65a3cba29f7b07fa47054fa8",
-       "api_key": "MjA1NDo4MjBSTUxLTEs5"
+       "trip_id": "66bb3ef8119f4a96927a3ca",
+       "fieldforce_id": "65a3cba29f7b07fa470fa8",
+       "api_key": "api_key"
      }
      ```
    - Here's what each part of this data means:
@@ -121,7 +121,7 @@ This guide will walk you through the steps to first create a trip, then start it
 1. **Copy the URL:**
    - After starting the trip, you can check its real-time status using the following URL:
      ```
-     https://trace.v2.barikoimaps.dev/trip?api_key=MjA1NDo4MjBSTUxLTEs5&trip_code=668a5b92421a4fc6bca2c679
+     https://trace.v2.barikoimaps.dev/trip?api_key=api_key&trip_code=668a5b92421a4fc6bca2c67
      ```
    - Here’s what each part of this URL means:
      - `"api_key"`: The API key provided by the company, ensuring the user belongs to the company.
